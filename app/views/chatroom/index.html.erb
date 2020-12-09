@@ -7,35 +7,8 @@
     <div class="twelve wide column">
         <div class="ui fluid raised card chatbox">
             <div class="content">
-                <div class="ui small feed">
-                    <div class="event">
-                        <div class="content">
-                        <div class="summary">
-                            <em>Elliot Fu</em>: Hello!
-                        </div>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="content">
-                        <div class="summary">
-                            <em>Stevie Feliciano</em>: Hello!
-                        </div>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="content">
-                        <div class="summary">
-                            <em>Helen Troy</em>: Hello!
-                        </div>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="content">
-                        <div class="summary">
-                            <em>Christian Rocha</em>: Test messsage
-                        </div>
-                        </div>
-                    </div>
+                <div class="ui small feed">                    
+                    <%= render @messages %>                    
                 </div>
             </div>
             <div class="extra content">
